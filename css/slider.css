@@ -73,28 +73,56 @@ ul.slick-dots {
 
 /* メディアクエリ */
 @media screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
 
-  .slider-wrapper,
-  .carousel-box,
-  .main-visual,
-  .taikendan-box,
-  .footer,
-  .header,
-  .container {
+  /* 基本のボックスや画像幅調整 */
+  .slider .slick-slide img,
+  .vcard1 img,
+  .vcard2 img,
+  .banner img,
+  .sns-area img,
+  .btn-voice img {
     width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-    padding: 0 16px;
+    height: auto;
   }
 
-  img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-}
+  /* 囲み全体をはみ出さないように */
+  .slider-wrapper,
+  .slider-area,
+  .direct-link,
+  .vcard1,
+  .vcard2,
+  .banner,
+  .sns-area,
+  .footer {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
 
+  /* 矢印が隠れたときの対処 */
+  .slick-prev,
+  .slick-next {
+    top: 45%;
+    z-index: 10;
+  }
+
+  /* SNSやバナーの横並び → 縦並び回避 */
+  .sns-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .sns-area img {
+    width: 40px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
 
