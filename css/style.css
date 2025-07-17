@@ -103,7 +103,8 @@ div.intro {
 
 .slick-track {
   display: flex !important;
-  gap: 32px;
+  padding-right:32px;
+/*  gap: 32px;  */
 }
 
 .slick-slide {
