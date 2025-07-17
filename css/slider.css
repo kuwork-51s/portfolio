@@ -99,12 +99,13 @@ ul.slick-dots {
     box-sizing: border-box;
   }
 
-  /* 矢印が隠れたときの対処 */
+  /* 矢印が隠れたときの対処
   .slick-prev,
   .slick-next {
     top: 45%;
     z-index: 10;
   }
+ */
 
   /* SNSやバナーの横並び → 縦並び回避 */
   .sns-area {
