@@ -6,7 +6,7 @@ body {
   padding: 0;
   font-family: 'Helvetica Neue', 'ヒラギノ角ゴ ProN', sans-serif;
   background-color: #fff;
-  color: #333;
+  color: #5e5e5e;
   overflow-x: hidden;
 }
 
@@ -17,6 +17,7 @@ a {
 
 /* 全体ラッピング */
 #wrapper {
+  width: 100%;
   max-width: 440px;
   margin: 0 auto;
 }
@@ -151,7 +152,8 @@ ul.slick-dots {
 
 /* カルーセルの直リンク */
 div.carousel-links {
-  width:440px;
+  width: 100%;
+  max-width: 440px;
 }
 
 .grid-list {
@@ -188,7 +190,8 @@ section.voice {
 }
 
 h3 {
-  width: 392px;
+  width: 100%;
+  max-width: 392px;
   font-size: 24px;
   color: #446E72;
   margin: 0 auto 24px;
@@ -202,7 +205,8 @@ span.font_ss {
 
 /* 体験談カード */
 div.vcard1 {
-  width: 392px;
+  width: 100%;
+  max-width: 392px;
   height: 176px;
   background-color: #ffffff;
   border: 2px solid #446E72;
@@ -213,7 +217,8 @@ div.vcard1 {
 }
 
 div.vcard2 {
-  width: 392px;
+  width: 100%;
+  max-width: 392px;
   height: 176px;
   background-color: #ffffff;
   border: 2px solid #446E72;
@@ -368,7 +373,7 @@ div.footer {
   height: 112px;
   text-align: center;
   font-size: 14px;
-  padding: 24px;
+  padding: 16px;
   background-color: #D9D9D9;
   color: #5e5e5e;
 }
