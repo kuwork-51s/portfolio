@@ -357,6 +357,9 @@ section.banners {
 }
 
 .banner-top {
+  width: 100%;
+  max-width: 408px;
+  padding:0;
   margin:0 auto 16px;
   text-align:center;
 }
@@ -370,18 +373,21 @@ section.banners {
 .banner-2bottom {
   width: 100%;
   max-width: 408px;
+  padding:0;
+  margin:0;
+  text-align:center;
 }
 
 .banner-2bottom img {
   width: 100%;
-  max-width: 200px;
+  max-width: 192px;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .banner-2bottom img.bottom_sp {
   float: left;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 .banner-2bottom::after{
