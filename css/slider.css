@@ -4,6 +4,7 @@
   max-width: 440px;
   margin: 0 auto 16px;
   position: relative;
+  overflow: hidden;
 }
 
 .slider-box {
@@ -25,8 +26,8 @@
 }
 
 .slick-slide img {
-  width: 376px;
-  height: 392px;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   display: block;
 }
