@@ -114,8 +114,8 @@ div.intro {
   box-sizing: border-box;
 }
 
-.slider_mrgn {
-  margin: 0 16px;
+section.slider-area .slider-box .slider .slider_mrgn {
+  margin: 0 16px !important;
 }
 
 .slick-slide img {
