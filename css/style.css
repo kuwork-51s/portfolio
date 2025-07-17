@@ -129,7 +129,8 @@ section.slider-area .slider-box .slider .slider_mrgn{
 }
 
 .slick-slide img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 376px;
   height: auto;
   object-fit: cover;
   display: block;
