@@ -17,20 +17,29 @@ a {
 /* 全体ラッピング */
 #wrapper {
   width: 100%;
-  max-width: 440px;
   margin: 0 auto;
 }
 
 /* メインビジュアル */
 header.visual {
   width: 100%;
+  max-width: 440px;
   height: auto;
+  margin: 0 auto 24px;
   margin-bottom: 24px;
+}
+
+header.visual img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 /* タイトル*/
 section.summary {
-  margin: 0 0 24px;
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto 24px;
 }
 
 .ttl {
@@ -62,13 +71,15 @@ span.font_l{
 
 /* 知ろう介護エリア */
 div.intro {
-  width:100%
+  width: 100%;
+  max-width: 440px;
   height: 280px;
   background-color: #446E72;
   display: flex;
   flex-direction: column;
   text-align:center;
   justify-content: center;
+  margin: 0 auto 24px;
   margin-bottom: 24px;
 }
 
@@ -164,6 +175,7 @@ ul.slick-dots {
 div.carousel-links {
   width: 100%;
   max-width: 440px;
+  margin: 0 auto 24px;
 }
 
 .grid-list {
@@ -174,7 +186,7 @@ div.carousel-links {
   grid-template-rows: repeat(3, 1fr);   /* 3行 */
   list-style: none;  /* リストスタイルを削除 */
   padding: 0;
-  margin: 0 16px 24px;
+  margin: 0 16px;
 }
 
 /* 各項目のスタイル (例: border, padding) */
@@ -357,7 +369,7 @@ section.banners {
 }
 
 .banner-top {
-  width: 100%;
+  width: 96%;
   max-width: 408px;
   padding:0;
   margin:0 auto 16px;
@@ -371,10 +383,10 @@ section.banners {
 }
 
 .banner-2bottom {
-  width: 100%;
+  width: 96%;
   max-width: 408px;
   padding:0;
-  margin:0;
+  margin:0 auto;
   text-align:center;
 }
 
@@ -387,7 +399,7 @@ section.banners {
 
 .banner-2bottom img.bottom_sp {
   float: left;
-  margin-right: 16px;
+  margin-right: auto;
 }
 
 .banner-2bottom::after{
