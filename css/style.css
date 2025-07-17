@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+/* ベーススタイル */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'ヒラギノ角ゴ ProN', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 全体ラッピング */
+#wrapper {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+/* メインビジュアル */
+header.visual {
+  max-width: 440px;
+  height: 272px;
+  margin-bottom: 24px;
+}
+
+/* タイトル*/
+section.summary {
+  margin: 0 auto 24px;
+}
+
+h1.ttl {
+  width: 320px;
+  font-family: serif;
+  font-size: 40px;
+  padding-bottom: 2px;
+  border-bottom: 8px solid #446E72;
+  margin:0 auto 16px 0;
+}
+
+span.font_s{
+  font-family: serif;
+  font-size: 24px;
+}
+span.font_l{
+  font-family: serif;
+  font-size: 32px;
+}
+
+/* 知ろう介護エリア */
+div.intro {
+  width:100%
+  height: 280px;
+  background-color: #446E72;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.intro img {
+  width: 160px;
+  height: 160px;
+  margin: 24px auto 24px;
+}
+
+.intro h2 {
+  color: #ffffff;
+  font-family: serif;
+  font-size: 40px;
+  padding: 0;
+  margin: 0 auto 24px;
+}
+
+/* カルーセル */
+.slider-area {
+  max-width: 440px;
+  margin: 0 auto 16px;
+  position: relative;
+}
+
+.slider-box {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 32px;
+}
+
+.slick-slide {
+  width: auto !important;
+  display: flex !important;
+  justify-content: center;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  width: 376px;
+  height: 392px;
+  object-fit: cover;
+  display: block;
+}
+
+/* 矢印（画像） */
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  z-index: 10;
+  width: 20px;
+  height: 28px;
+  font-size: 28px;
+}
+
+/* インジケーター */
+ul.slick-dots {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 16px 0 0;
+  z-index: 1;
+}
+
+.slick-dots li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 8px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #446E72;
+}
+
+
+/* カルーセルの直リンク */
+div.carousel-links {
+  width:440px;
+}
+
+.grid-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3列 */
+  grid-template-rows: repeat(3, 1fr);   /* 3行 */
+  list-style: none;  /* リストスタイルを削除 */
+  padding: 0;
+  margin: 0 16px 24px;
+}
+
+/* 各項目のスタイル (例: border, padding) */
+.grid-list li {
+  width: 134px;
+  height: 44px;
+  background-color: #446E72;
+  color: #F7F4EF;
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 44px;
+}
+
+/* 体験談エリア */
+section.voice {
+  width: 100%;
+  max-width: 440px;
+  background-color: #F7F4EF;
+  padding:24px 0;
+  margin:0 auto 24px;
+  text-align:center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+h3 {
+  width: 392px;
+  font-size: 24px;
+  color: #446E72;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+span.font_ss {
+  font-size: 16px;
+  color: #446E72;
+}
+
+/* 体験談カード */
+div.vcard1 {
+  width: 392px;
+  height: 176px;
+  background-color: #ffffff;
+  border: 2px solid #446E72;
+  border-radius: 24px;
+  margin: 0 auto 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+div.vcard2 {
+  width: 392px;
+  height: 176px;
+  background-color: #ffffff;
+  border: 2px solid #446E72;
+  border-radius: 24px;
+  display: flex;
+  margin: 0 auto 24px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.vcard1 img {
+  width: 168px;
+  height: 144px;
+  float: left;
+  margin: 16px 0 16px 16px;
+}
+
+.vcard2 img {
+  width: 168px;
+  height: 144px;
+  float: right;
+  margin: 16px 16px 16px 0;
+}
+
+.vcard-text1 {
+/*  width: 184px;  */
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align:top;
+  padding: 0 16px 0 8px;
+  margin: 16px 0;
+}
+
+.vcard-text2 {
+/*  width: 184px;  */
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align:top;
+  padding: 0 8px 0 16px;
+  margin: 16px 0;
+}
+
+.vcard-text1 img {
+  width: 160px;  
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  margin:0 auto;
+}
+
+.vcard-text2 img {
+  width: 160px;  
+  height: 40px;
+  text-align: center;
+  padding: 0;
+  margin:0 auto;
+}
+
+.vcard-ttl {
+  font-size: 16px;
+  font-weight: bold;
+  color: #446E72;
+  line-height: 1.6;
+  text-align: left;
+  padding: 0;
+  margin:0 0 8px;
+}
+
+.vcard-sttl {
+  font-size: 12px;
+  color: #5e5e5e;
+  text-align: right;
+  padding: 0;
+  margin:0 0 16px;
+}
+
+.vcard1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.vcard2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.more-link {
+  font-size: 24px;
+  color: #446E72;
+  text-align: right;
+  margin: 0 0 16px;
+  padding-right: 24px;
+}
+
+.btn-voice {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.btn-voice img {
+  width: 392px;
+  height: 80px;
+}
+
+/* ボタン エリア */
+section.banners {
+  width: 100%;
+  max-width: 440px;
+  padding:0;
+  margin:0 auto 24px;
+  text-align:center;
+  justify-content: center;
+}
+
+.banner-top {
+  margin:0 auto 16px;
+}
+
+.banner-bottom {
+  margin:0 auto ;
+}
+
+
+/* SNSアイコン エリア */
+section.sns {
+  width: 100%;
+  max-width: 440px;
+  padding:0;
+  margin:0 auto 24px;
+  text-align:center;
+  justify-content: center;
+}
+
+.sns-icons img {
+  margin:0 auto;
+}
+
+.sns-icons img {
+  padding:0 8px;
+}
+
+div.footer {
+  width: 100%;
+  height: 112px;
+  text-align: center;
+  font-size: 14px;
+  padding: 24px;
+  background-color: #D9D9D9;
+  color: #5e5e5e;
+}
+
+div.footer p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
