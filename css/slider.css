@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
+/* カルーセル */
 .slider-area {
-  max-width: 440px;
+  width: 100%;
+  max-width: 376px;
   margin: 0 auto 16px;
   position: relative;
-  overflow: hidden;
 }
 
 .slider-box {
@@ -40,9 +41,6 @@
   background: none;
   border: none;
   z-index: 10;
-  width: 20px;
-  height: 28px;
-  font-size: 28px;
 }
 
 /* インジケーター */
@@ -70,60 +68,4 @@ ul.slick-dots {
   color: #446E72;
 }
 
-
-/* メディアクエリ */
-@media screen and (max-width: 480px) {
-
-  /* 基本のボックスや画像幅調整 */
-  .slider .slick-slide img,
-  .vcard1 img,
-  .vcard2 img,
-  .banner img,
-  .sns-area img,
-  .btn-voice img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* 囲み全体をはみ出さないように */
-  .slider-wrapper,
-  .slider-area,
-  .direct-link,
-  .vcard1,
-  .vcard2,
-  .banner,
-  .sns-area,
-  .footer {
-    width: 100%;
-    padding: 0 16px;
-    box-sizing: border-box;
-  }
-
-  /* 矢印が隠れたときの対処
-  .slick-prev,
-  .slick-next {
-    top: 45%;
-    z-index: 10;
-  }
- */
-
-  /* SNSやバナーの横並び → 縦並び回避 */
-  .sns-area {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
-
-  .sns-area img {
-    width: 40px;
-  }
-
-  .banner {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-}
 
