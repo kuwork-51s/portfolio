@@ -400,3 +400,30 @@ body {
   height: auto;
 }
 
+/* メディアクエリ */
+@media screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .slider-wrapper,
+  .carousel-box,
+  .main-visual,
+  .taikendan-box,
+  .footer,
+  .header,
+  .container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+}
+
+
