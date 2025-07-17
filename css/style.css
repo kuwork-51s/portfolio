@@ -368,14 +368,28 @@ section.banners {
 }
 
 .banner-2bottom {
-  margin:0 auto ;
+  width: 100%;
+  max-width: 408px;
 }
 
 .banner-2bottom img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  margin: 0;
 }
+
+.banner-2bottom img.bottom_sp {
+  float: left;
+  margin-right: 8px;
+}
+
+.banner-2bottom::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 
 /* SNSアイコン エリア */
