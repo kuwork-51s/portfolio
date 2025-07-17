@@ -40,7 +40,7 @@ section.summary {
   margin:0 auto 16px 0;
 }
 
-h1 {
+h1.ttl_title {
   font-family: serif;
   font-size: 40px;
   padding-bottom: 2px;
