@@ -44,11 +44,12 @@ h1.ttl_title {
   font-family: serif;
   font-size: 40px;
   padding-bottom: 2px;
-  margin:0 16px;
+  margin: 0;
+  margin-left: 16px;
 }
 
 .ttl_summary {
-  margin:0 16px;
+  margin: 0 16px;
 }
 
 span.font_s{
