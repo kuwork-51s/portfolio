@@ -24,7 +24,6 @@ a {
 /* メインビジュアル */
 header.visual {
   width: 100%;
-  max-width: 440px;
   height: auto;
   margin-bottom: 24px;
 }
@@ -114,7 +113,7 @@ div.intro {
   box-sizing: border-box;
 }
 
-section.slider-area .slider-box .slider .slider_mrgn {
+section.slider-area .slider-box .slider .slider_mrgn{
   margin: 0 16px !important;
 }
 
@@ -168,6 +167,8 @@ div.carousel-links {
 }
 
 .grid-list {
+  width: 92%;
+  max-width: 408px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);  /* 3列 */
   grid-template-rows: repeat(3, 1fr);   /* 3行 */
@@ -216,7 +217,8 @@ span.font_ss {
 
 /* 体験談カード */
 div.vcard1 {
-  max-width: 392px;
+  width: 89%;
+  max-width: 360px;
   height: auto;
   background-color: #ffffff;
   border: 2px solid #446E72;
@@ -230,7 +232,8 @@ div.vcard1 {
 }
 
 div.vcard2 {
-  max-width: 392px;
+  width: 89%;
+  max-width: 360px;
   height: auto;
   background-color: #ffffff;
   border: 2px solid #446E72;
@@ -262,7 +265,7 @@ div.vcard2 {
 }
 
 .vcard-text1 {
-/*  width: 184px;  */
+  max-width: 184px;
   height: 144px;
   display: flex;
   flex-direction: column;
@@ -273,7 +276,7 @@ div.vcard2 {
 }
 
 .vcard-text2 {
-/*  width: 184px;  */
+  max-width: 184px;
   height: 144px;
   display: flex;
   flex-direction: column;
@@ -338,7 +341,7 @@ div.vcard2 {
 }
 
 .btn-voice img {
-  width: 100%;
+  width: 89%;
   max-width: 392px;
   height: auto;
 }
@@ -346,7 +349,7 @@ div.vcard2 {
 /* ボタン エリア */
 section.banners {
   width: 100%;
-  max-width: 440px;
+  max-width: 408px;
   padding:0;
   margin:0 auto 24px;
   text-align:center;
@@ -369,7 +372,8 @@ section.banners {
 }
 
 .banner-2bottom img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
@@ -377,7 +381,7 @@ section.banners {
 /* SNSアイコン エリア */
 section.sns {
   width: 100%;
-  max-width: 440px;
+  max-width: 360px;
   padding:0;
   margin:0 auto 24px;
   text-align:center;
@@ -385,6 +389,8 @@ section.sns {
 }
 
 .sns-icons img {
+  width: 100%;
+  max-width: 40px;
   margin:0 auto;
 }
 
