@@ -394,23 +394,9 @@ section.banners {
 
 .banner-2bottom img {
   width: 49%;
-  max-width: 192px;
   height: auto;
   margin: 0 0.5%;
 }
-
-/*
-.banner-2bottom img.bottom_sp {
-  float: left;
-  margin-right: auto;
-}
-
-.banner-2bottom::after{
-  content: "";
-  display: block;
-  clear: both;
-}
-*/
 
 
 /* SNSアイコン エリア */
