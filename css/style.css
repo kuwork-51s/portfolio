@@ -386,18 +386,20 @@ section.banners {
 .banner-2bottom {
   width: 96%;
   max-width: 408px;
+  font-size: 0; /* これでinline-block間の空白をなくす */
   padding:0;
   margin:0 auto;
-  text-align:center;
+  text-align: center;
 }
 
 .banner-2bottom img {
-  width: 100%;
+  width: 49%;
   max-width: 192px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 0.5%;
 }
 
+/*
 .banner-2bottom img.bottom_sp {
   float: left;
   margin-right: auto;
@@ -408,7 +410,7 @@ section.banners {
   display: block;
   clear: both;
 }
-
+*/
 
 
 /* SNSアイコン エリア */
