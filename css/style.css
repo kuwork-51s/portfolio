@@ -98,7 +98,7 @@ div.intro {
   margin: 0 auto 24px;
 }
 
-/* カルーセル */
+/* スライダー */
 .slider-area {
   width: 100%;
   max-width: 376px;
@@ -172,7 +172,7 @@ ul.slick-dots {
 }
 
 
-/* カルーセルの直リンク */
+/* スライダーの直リンク */
 div.carousel-links {
   width: 100%;
   max-width: 440px;
@@ -439,18 +439,96 @@ div.footer p {
 }
 
 
-/* スマホ用調整
 
-body {
-  overflow-x: hidden;
+/* *** 詳細ページ *** */
+
+header.return {
+  width: 100%;
+  max-width: 408px;
+  height: 64px;
+  text-align:right;
+  line-height: 64px;
+  padding:0 16px;
+  margin:0 auto;
 }
 
-.slider-area {
-  overflow: hidden;
+section.q_intro {
+  width: 100%;
+  max-width: 440px;
+  background-color: #F7F4EF;
+  padding:0;
+  margin:0 auto 40px;
+  text-align:center;
+  justify-content: center;
 }
 
-.slick-slide img {
-  max-width: 100%;
+h1.kaigo_question {
+  margin: 0 auto;
+}
+
+h1.kaigo_question img {
+  width: 100%;
+  max-width: 376px;
   height: auto;
+  margin: 24px auto;
 }
- */
+
+.q_intro_summary {
+  width: 100%;
+  max-width: 376px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 16px 24px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align:left;
+}
+
+section.q_chapter {
+  width: 100%;
+  max-width: 440px;
+  margin: 0 auto 40px;
+}
+
+div.q_line {
+  width: 100%;
+  max-width: 440px;
+  border-bottom: 4px solid #446E72;
+  margin:0 auto;
+}
+
+h2.q_ttl {
+  font-size: 24px;
+  padding-bottom: 2px;
+  margin: 0;
+  margin-left: 16px;
+}
+
+.q_summary {
+  padding: 0 16px;
+  margin: 24px 0 0;
+  line-height: 1.6;
+}
+
+ul.q_check_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.q_check_list li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 1em;
+}
+
+ul.q_check_list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/check_24bgreen.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
