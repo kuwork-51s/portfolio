@@ -513,6 +513,7 @@ h2.q_ttl {
 ul.q_check_list {
   list-style: none;
   padding-left: 0;
+  margin: 24px 16px 0;
 }
 
 ul.q_check_list li {
