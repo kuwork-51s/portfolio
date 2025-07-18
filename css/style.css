@@ -443,8 +443,8 @@ div.footer p {
 /* *** 詳細ページ *** */
 
 header.return {
-  width: 100%;
-  max-width: 408px;
+  width: 85%;
+  max-width: 376px;
   height: 64px;
   text-align:right;
   line-height: 64px;
@@ -467,14 +467,14 @@ h1.kaigo_question {
 }
 
 h1.kaigo_question img {
-  width: 100%;
+  width: 85%;
   max-width: 376px;
   height: auto;
   margin: 24px auto;
 }
 
 .q_intro_summary {
-  width: 100%;
+  width: 85%;
   max-width: 376px;
   font-size: 18px;
   font-weight: bold;
